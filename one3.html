@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopMate - E-commerce Website</title>
+    <link rel="stylesheet" href="two3.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to ShopMate</h1>
+            <p>Your one-stop shop for amazing products!</p>
+        </header>
+
+        <!-- Featured Products Section -->
+        <div class="products">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <!-- Product 1 -->
+                <div class="product-item">
+                    <img src="headphone.jpeg" alt="Product 1">
+                    <p>Headphones</p>
+                    <p>$10.00</p>
+                    <button onclick="addToCart(10)">Add to Cart</button>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-item">
+                    <img src="watch.jpg" alt="Product 2">
+                    <p>Watch</p>
+                    <p>$15.00</p>
+                    <button onclick="addToCart(15)">Add to Cart</button>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-item">
+                    <img src="camera.jpg" alt="Product 3">
+                    <p>Digital Camera</p>
+                    <p>$20.00</p>
+                    <button onclick="addToCart(20)">Add to Cart</button>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-item">
+                    <img src="phone.jpeg" alt="Product 4">
+                    <p>Mobile phone</p>
+                    <p>$55.00</p>
+                    <button onclick="addToCart(25)">Add to Cart</button>
+                </div>
+                <!-- Product 5 -->
+                <div class="product-item">
+                    <img src="laptop.jpeg" alt="Product 5">
+                    <p>Laptop</p>
+                    <p>$80.00</p>
+                    <button onclick="addToCart(30)">Add to Cart</button>
+                </div>
+                <!-- Product 6 -->
+                <div class="product-item">
+                    <img src="perfume.jpeg" alt="Product 6">
+                    <p>Perfume</p>
+                    <p>$45.00</p>
+                    <button onclick="addToCart(35)">Add to Cart</button>
+                </div>
+                <!-- Product 7 -->
+                <div class="product-item">
+                    <img src="shoes.jpeg" alt="Product 7">
+                    <p>Shoes</p>
+                    <p>$40.00</p>
+                    <button onclick="addToCart(40)">Add to Cart</button>
+                </div>
+                <!-- Product 8 -->
+                <div class="product-item">
+                    <img src="toys.jpg" alt="Product 8">
+                    <p>Toys for kids</p>
+                    <p>$45.00</p>
+                    <button onclick="addToCart(45)">Add to Cart</button>
+                </div>
+                <!-- Product 9 -->
+                <div class="product-item">
+                    <img src="jewellery.jpeg" alt="Product 9">
+                    <p>Jewellery</p>
+                    <p>$50.00</p>
+                    <button onclick="addToCart(50)">Add to Cart</button>
+                </div>
+                <!-- Product 10 -->
+                <div class="product-item">
+                    <img src="beauty.jpeg" alt="Product 10">
+                    <p>Cosmetics and Beauty products</p>
+                    <p>$55.00</p>
+                    <button onclick="addToCart(55)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="cart">
+                <h3>Your Cart</h3>
+                <ul id="cart-items"></ul>
+                <p>Total: $<span id="total-price">0</span></p>
+            </div>
+        </div>
+
+        <!-- Joke Section -->
+        <div class="joke-section">
+            <h2>Joke of the Day</h2>
+            <div id="joke" class="joke-content">Loading joke...</div>
+            <button onclick="getJoke()">Get Another Joke</button>
+        </div>
+
+        <!-- Quiz Section -->
+        <div class="quiz-section">
+            <h2>Take our Quiz</h2>
+            <div class="quiz-container">
+                <div id="quiz-question">Loading question...</div>
+                <div id="quiz-options"></div>
+                <button onclick="nextQuestion()">Next Question</button>
+                <div id="score">Score: 0</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="three3.js"></script>
+</body>
+</html>
