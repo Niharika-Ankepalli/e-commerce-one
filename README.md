@@ -2,7 +2,7 @@
 
 This is an **E-Commerce Website** designed to provide a smooth shopping experience. It features product filtering, sorting, and integration with an API for dynamic content.
 
-## 🔧 Technologies Used
+## Technologies Used
 - **HTML5**
 - **CSS3**
 - **JavaScript**
